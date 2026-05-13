@@ -34,7 +34,7 @@ st.header("Powered by Gemini 2.0 Flash Exp")
 def initialize_agent():
     return Agent(
         name="Video AI Summarizer",
-        model=Gemini(id="gemini-1.5-flash"),
+        model=Gemini(id="gemini-robotics-er-1.6-preview"),
         tools=[DuckDuckGo()],
         markdown=True,
     )
